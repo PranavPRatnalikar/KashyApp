@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/texthello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/records"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/reclogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texthello" />
+
+    <ImageButton
+        android:id="@+id/inbox"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/inboxlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/records"
+        app:layout_constraintTop_toBottomOf="@+id/texthello" />
+
+    <ImageButton
+        android:id="@+id/accounts"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/accountlogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/records" />
+
+    <ImageButton
+        android:id="@+id/pres"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/preslogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/records"
+        app:layout_constraintTop_toBottomOf="@+id/inbox" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ambulancebtn"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#2196F3"
+        android:drawableLeft="@drawable/baseline_car_24"
+        android:text="Ambulance"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pres" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

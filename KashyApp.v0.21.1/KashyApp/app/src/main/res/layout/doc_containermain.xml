@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="5dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:background="@drawable/border_dochomepage">
+
+    <TextView
+        android:id="@+id/docgreeter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Hello,Dr.Pranav"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp" />
+
+
+    <EditText
+        android:id="@+id/searchbar"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Search by email id"
+        android:textColor="@color/black"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/border"
+        android:layout_marginHorizontal="20dp"
+        android:drawableRight="@drawable/ic_baseline_search_24"
+        android:padding="10dp"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchButton"
+        android:layout_marginHorizontal="140dp"
+        app:cornerRadius="60dp"
+        android:backgroundTint="#EBF6F8"
+        android:fontFamily="sans-serif"
+        android:text="Search"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

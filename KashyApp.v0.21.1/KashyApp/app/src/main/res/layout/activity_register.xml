@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackgroundnew1"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register an account"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/patemail"
+        android:hint="Email"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:textScaleX="1"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/patpassword"
+        android:hint="Password"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:textScaleX="1"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/patconfirmpassword"
+        android:hint="Confirm Password"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:textScaleX="1"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:backgroundTint="#9CD8E3"
+        android:textColor="#333232"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="50dp"
+        app:cornerRadius="50dp"
+        android:id="@+id/patregisterbtn"/>
+
+
+
+
+</LinearLayout>

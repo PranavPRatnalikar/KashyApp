@@ -1,0 +1,41 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Ignore Gradle files
+.gradle/
+build/
+local.properties
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore Android Studio project files
+*.iml
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/.name
+
+# Ignore keystore files (important if you're signing the app)
+*.jks
+
+# Ignore Firebase configuration files
+/google-services.json
+
+# Ignore misc files
+.DS_Store

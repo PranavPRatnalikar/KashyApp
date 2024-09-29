@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">KashyApp</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="docname">Pranav</string>
+    <string name="openDrawer">Open Navigation drawer</string>
+    <string name="closeDrawer">Close Navigation drawer</string>
+    <string-array name="blood_group">
+        <item>Select...</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+
+    <string-array name="relation_type">
+        <item>Select...</item>
+        <item>Father </item>
+        <item>Mother</item>
+        <item>Son</item>
+        <item>Daughter </item>
+        <item>Husband</item>
+        <item>Wife</item>
+        <item>Grandmother </item>
+        <item>Grandfather</item>
+        <item>Grandson </item>
+        <item>Granddaughter </item>
+    </string-array>
+
+    <string-array name="doc_education">
+        <item>Select...</item>
+        <item>MBBS </item>
+        <item>BAMS </item>
+        <item>BDS </item>
+        <item>BHMS </item>
+        <item>MD </item>
+        <item>MS </item>
+        <item>DNB </item>
+
+    </string-array>
+
+    <string-array name="doc_speciality">
+        <item>Select...</item>
+        <item>Family Physician </item>
+        <item>Pediatrician </item>
+        <item>Dermatologist </item>
+        <item>Surgeon </item>
+        <item>Psychiatrist </item>
+        <item>Gynecologist</item>
+        <item>Cardiologist </item>
+        <item>Dental Surgeon </item>
+
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select...</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="yesNo">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="login_type">
+        <item>Login as...</item>
+        <item>Patient</item>
+        <item>Doctor</item>
+
+    </string-array>
+
+    <string-array name="height">
+        <item>Select...</item>
+        <item>4\'0" (122 cm)</item>
+        <item>4\'1" (124 cm)</item>
+        <item>4\'2" (128 cm)</item>
+        <item>4\'3" (131 cm)</item>
+        <item>4\'4" (134 cm)</item>
+        <item>4\'5" (135 cm)</item>
+        <item>4\'6" (137 cm)</item>
+        <item>4\'7" (140 cm)</item>
+        <item>4\'8" (142 cm)</item>
+        <item>4\'9" (145 cm)</item>
+        <item>4\'10" (147 cm)</item>
+        <item>4\'11" (150 cm)</item>
+        <item>5\'0" (152 cm)</item>
+        <item>5\'1" (155 cm)</item>
+        <item>5\'2" (158 cm)</item>
+        <item>5\'3" (160 cm)</item>
+        <item>5\'4" (163 cm)</item>
+        <item>5\'5" (165 cm)</item>
+        <item>5\'6" (168 cm)</item>
+        <item>5\'7" (170 cm)</item>
+        <item>5\'8" (173 cm)</item>
+        <item>5\'9" (175 cm)</item>
+        <item>5\'10" (178 cm)</item>
+        <item>5\'11" (180 cm)</item>
+        <item>6\'0" (183 cm)</item>
+        <item>6\'1" (185 cm)</item>
+        <item>6\'2" (188 cm)</item>
+        <item>6\'3" (191 cm)</item>
+        <item>6\'4" (193 cm)</item>
+        <item>6\'5" (196 cm)</item>
+        <item>6\'6" (198 cm)</item>
+        <item>6\'7" (201 cm)</item>
+        <item>6\'8" (203 cm)</item>
+        <item>6\'9" (206 cm)</item>
+        <item>6\'10" (208 cm)</item>
+        <item>6\'11" (211 cm)</item>
+        <item>7\' (213 cm) and above</item>
+
+    </string-array>
+
+    <string-array name="chronic_diseases">
+        <item>Select...</item>
+        <item>Arthritis</item>
+        <item>Asthma</item>
+        <item>Cancer</item>
+        <item>Diabetes</item>
+        <item>Eating disorders</item>
+        <item>Heart disease</item>
+        <item>Obesity</item>
+
+    </string-array>
+
+    <string-array name="smoking">
+        <item>Select...</item>
+        <item>No</item>
+        <item>Very light (less than 5 cigarettes/day)</item>
+        <item>Light (5-10 cigarettes/day)</item>
+        <item>Moderate (11-19 cigarettes/day)</item>
+        <item>Heavy (20 or more cigarettes/day)</item>
+
+    </string-array>
+
+    <string-array name="alcohol">
+        <item>Select...</item>
+        <item>No</item>
+        <item>Yes (occasionally)</item>
+        <item>Light (3 or few drinks/week)</item>
+        <item>Moderate (Men:4-14 | Women:4-7 drinks/week)</item>
+        <item>Heavy (Men:14+ | Women:7+ drinks/week)</item>
+
+    </string-array>
+
+    <string-array name="tobacco">
+        <item>Select...</item>
+        <item>No</item>
+        <item>Yes</item>
+
+    </string-array>
+
+    <string-array name="diet">
+        <item>Select...</item>
+        <item>Vegetarian</item>
+        <item>Non-vegetarian</item>
+
+    </string-array>
+
+    <string-array name="activity">
+        <item>Select...</item>
+        <item>Little or no activity (mostly sitting through the day)</item>
+        <item>Lightly active (mostly standing through the day)</item>
+        <item>Moderately active (walking/doing physical activities)</item>
+        <item>Very active(heavy physical activities through the day)</item>
+
+    </string-array>
+
+    <string-array name="dosage">
+        <item>On Schedule</item>
+        <item>At Intervals</item>
+        <item>When Needed</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

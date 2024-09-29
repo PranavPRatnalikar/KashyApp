@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/etmedname2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicine name"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/etstrength2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pill strength (in mg)"
+            android:textSize="20dp"
+            android:layout_marginTop="45dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/etinterval2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:hint="Interval between doses (in hours)"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/etlimit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Limit (Dosage limit for a day)"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Start Date :"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="200dp"/>
+        <EditText
+            android:id="@+id/etstartdate2"
+            android:inputType="date"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="120dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="End Date :"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="240dp"/>
+        <EditText
+            android:id="@+id/etenddate2"
+            android:inputType="date"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="120dp"/>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackgroundnew1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Patient Profile Creator"
+            android:textSize="35dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center"
+            android:text="Tell us more about yourself..."
+            android:textColor="#483F78"
+            android:layout_marginTop="40dp"
+            android:textSize="25dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginTop="20dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="textStart"/>
+
+        <EditText
+            android:id="@+id/patname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="10sp"
+            android:padding="10dp"
+            android:imeOptions="actionNext"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="textStart"/>
+
+        <EditText
+            android:id="@+id/patcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="10sp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="textStart"/>
+
+        <Spinner
+            android:id="@+id/patgender"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/border"
+            android:imeOptions="actionNext"
+            android:padding="10dp"
+            android:paddingVertical="10dp"
+            android:entries="@array/gender"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/patdob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="10sp"
+            android:padding="10dp"
+            android:imeOptions="actionNext"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/patage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="10sp"
+            android:padding="10dp"
+            android:imeOptions="actionNext"
+            android:background="@drawable/border"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/patsubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="SUBMIT"
+                android:backgroundTint="#EBF6F8"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/border"
+                />
+
+            <Button
+                android:id="@+id/patskip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/transparent"
+                android:text="Skip for now ->"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/nameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:hint="Medicine name"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/strengthEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:hint="Pill strength (in mg)"
+            android:textSize="20dp"
+            android:layout_marginTop="65dp"
+            android:paddingLeft="10dp"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Dose to be Taken"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:textSize="20dp"/>-->
+<!--        <Spinner-->
+<!--            android:id="@+id/spinnerDosage"-->
+<!--            android:layout_width="190dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="105dp"-->
+<!--            android:layout_marginLeft="180dp"-->
+<!--            android:entries="@array/dosage"/>-->
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Start Date :"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="160dp"/>
+
+        <EditText
+            android:id="@+id/etstartdate1"
+            android:inputType="date"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="120dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="End Date :"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="200dp"/>
+        <EditText
+            android:id="@+id/etenddate1"
+            android:inputType="date"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="120dp"/>
+
+        <TextView
+            android:id="@+id/addetbtn1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textColor="#2047A8"
+            android:text="Times of day :"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="240dp"/>
+
+        <EditText
+            android:id="@+id/ettimes1"
+            android:inputType="time"
+            android:hint="Add time"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="140dp"/>
+        <Button
+            android:backgroundTint="@color/white"
+            android:id="@+id/cancelets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:pointerIcon="text"
+            android:text="Add"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="230sp"
+            android:layout_marginLeft="270sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="130dp"
+            android:id="@+id/edittextcontainer"
+            android:layout_marginTop="280dp"
+            android:orientation="vertical"/>
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="170dp">-->
+<!--            <LinearLayout-->
+<!--                android:id="@+id/containerDose"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"/>-->
+<!--        </RelativeLayout>-->
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ambulance_tracking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp">
+        <include layout="@layout/activity_maps"/>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ambulancecallbtn"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#EF0A40"
+        android:drawableLeft="@drawable/ambulancecall"
+        android:text="Ambulance"
+        android:textSize="18dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginVertical="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

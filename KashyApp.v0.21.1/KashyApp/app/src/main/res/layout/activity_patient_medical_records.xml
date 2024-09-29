@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".patient_medical_records">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patient Records"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/patimg1"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pat"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="#90D3D9"
+            android:alpha="0.9">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrname"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Contact Number"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrcontact"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:inputType="number"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmremail"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmraddress"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrgender"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrage"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Relative's Name"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrrelname"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Relation Type"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrreltype"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Relative's Contact Number"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrrelcontact"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:inputType="number"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="#90D3D9"
+            android:alpha="0.9">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medical"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Height"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrheight"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Weight (in kg)"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrweight"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:inputType="number"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Blood Group"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrbgrp"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Surgical History"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrsurgicalhist"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Genetic History"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrgenetichist"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Vaccine History"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrvaccinehist"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Chronic Diseases"
+                android:layout_margin="5dp"
+                android:textSize="19dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrchronicdiseases"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Allergies (if any)"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrallergies"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Medicine Allergy"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrmedallergies"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="#90D3D9"
+            android:alpha="0.9">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lifestyle"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Smoking Habits"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrsmoking"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Alcohol Consumption"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmralcohol"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Tobacco Consumption"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrtobacco"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Activity"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmractivity"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Diet"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/patmrdiet"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="5dp"
+                android:background="@drawable/border4"
+                android:alpha="0.6"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/patmreditbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_marginHorizontal="70dp"
+            app:cornerRadius="50dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
